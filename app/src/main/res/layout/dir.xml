@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/blank_space" />
+
+    <TextView
+        android:id="@+id/txtDir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/nome_do_diretorio"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/btnInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="@color/green"
+        android:tint="@color/white"
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:contentDescription="@string/todo" />
+
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:tint="@color/white"
+        app:srcCompat="@android:drawable/ic_delete"
+        android:contentDescription="@string/todo" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/myRecView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="500dp"
+        android:layout_weight="@android:integer/config_longAnimTime"
+        android:clipToPadding="false" />
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TP2-LDDM</string>
+    <string name="nome_do_elemento">Nome do elemento</string>
+    <string name="nome_do_item">Nome do item</string>
+    <string name="name">Name</string>
+    <string name="todo">TODO</string>
+    <string name="nome_do_diretorio">Nome do Diretório</string>
+    <string name="blank_space" />
+</resources>
